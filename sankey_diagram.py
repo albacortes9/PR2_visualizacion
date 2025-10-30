@@ -39,4 +39,5 @@ fig.update_layout(
     height=600
 )
 
-fig.show()
+fig.write_html("sankey_diagram.html", include_plotlyjs="cdn")
+
